@@ -1,4 +1,4 @@
-files:=pierwiastki
+files:=pierwiastki potegi
 md_files=$(files:=.md)
 
 pandoc=pandoc
