@@ -4,6 +4,8 @@ md_files=$(files:=.md)
 pandoc=pandoc
 pandoc_flags=
 
+default:
+
 %.pdf: %.md
 	$(pandoc) $(pandoc_flags) $< -o $@
 
@@ -20,9 +22,15 @@ zadania.pdf: $(files:=.md)
 zadania.html: $(files:=.md)
 	$(pandoc) $(pandoc_flags) $^ -o $@
 
+zadania.html: pandoc_flags+=--toc -N
+
+zadania.pdf: pandoc_flags+=--toc -N
+
 pdf: zadania.pdf
 
 html: zadania.html
 
-.PHONY: all
+default: zadania.html
+
+.PHONY: pdf html default
 
