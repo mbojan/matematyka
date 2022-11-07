@@ -14,3 +14,16 @@
     a. $7^4 \cdot 2^4$
     a. $(0.125 \cdot 16)^7$
 
+3. Oblicz -- przypomnij zasady wykonywania obliczeń wyrażeń zawierających pierwiastki.
+    a. $\sqrt{3^2 + 4^2}$
+    a. $\sqrt{2^8 - 2^4}$
+    a. $\sqrt{5}^2$
+    a. $(\sqrt{19})^2$
+    a. $\sqrt{7^4 \cdot 7^2}$
+
+4. Oblicz -- przypomnij zasady wykonywania obliczeń wyrażeń zawierających pierwiastki.
+    a. $(\sqrt[3]{21})^3$
+    a. $\sqrt[3]{2^3 \cdot 6^3}$
+    a. $\sqrt[3]{343}$
+    a. $\sqrt[3]{(\frac{1}{27})^3}$
+    a. $\sqrt[3]{14^3 : 7^3}$
